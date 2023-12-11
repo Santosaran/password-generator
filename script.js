@@ -7,7 +7,7 @@ const symbolsEl = document.getElementById('symbols');
 const generateEl = document.getElementById('generate');
 const clipboard = document.getElementById('clipboard');
 
-const randomFunc = {
+const randomFunc = { 
 	lower: getRandomLower,
 	upper: getRandomUpper,
 	number: getRandomNumber,
