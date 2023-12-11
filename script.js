@@ -12,7 +12,7 @@ const randomFunc = {
 	upper: getRandomUpper,
 	number: getRandomNumber,
 	symbol: getRandomSymbol
-} 
+}
 
 clipboard.addEventListener('click', () => {
 	const textarea = document.createElement('textarea');
